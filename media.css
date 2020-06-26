@@ -1,0 +1,146 @@
+@media only screen and (max-width:1300px) {
+  .mainavakado {
+    display: grid;
+    padding-top: 170px;
+    padding-left: 170px;
+    padding-right: 170px;
+  }
+
+  .infoavakado {
+    display: grid;
+    background-color: #fcfcfc;
+    border: none;
+    text-align: start;
+    border-radius: 7px;
+    box-shadow: 0 0 100px rgba(0, 0, 0,0.3);
+    display: inline-block;
+    padding: 10px 50px 25px 50px;
+  }
+
+  #avakado {
+    display: grid;
+    position: absolute;
+    right: 160px;
+    top: 680px;
+    display:block;
+    height: 380px;
+    width: 379px;
+  }
+
+  .textavakado {
+    color: #4c4c4c ;
+    font-size: 15px;
+    font-family: 'Ramabhadra', sans-serif;
+  }
+
+  .textavakado1 {
+    color: #5c5c5c ;
+    font-size: 15px;
+    font-family: 'Heebo', sans-serif;
+    padding-right: 260px;
+  }
+
+
+
+
+
+
+
+  .maindiet {
+    width: 1350px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+  }
+  .maindiet .boxdiet {
+    padding: 20px 50px 30px;
+    text-align: left;
+    color: white;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgba(0, 0, 0,0.4);
+    background: rgb(75,78,46);
+    background: linear-gradient(326deg, rgba(75,78,46,1) 0%, rgba(64,89,34,1) 17%, rgba(75,193,74,1) 100%);
+  }
+
+  .maindiet .boxdiet h2 {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+  }
+
+  .maindiet .boxdiet p {
+    font-family: 'Heebo', sans-serif;
+    font-size: 15px;
+  }
+
+  #ananas {
+    display: grid;
+    position: absolute;
+    left: 660px;
+    top: 1500px;
+    display:block;
+    height: 310px;
+    width: 160px;
+    shadow: 0 0 100px rgba(0, 0, 0,0.4);
+  }
+
+  #sir {
+    display: grid;
+    position: absolute;
+    left: 1270px;
+    top: 1620px;
+    display:block;
+    height: 200px;
+    width: 250px;
+    shadow: 0 0 100px rgba(0, 0, 0,0.4);
+  }
+
+}
+
+@media only screen and (max-width:1000px) {
+
+ .mainavakado {
+    display: grid;
+    padding-top: 170px;
+    padding-left: 170px;
+    padding-right: 170px;
+  }
+
+  .infoavakado {
+    display: grid;
+    background-color: #fcfcfc;
+    border: none;
+    text-align: start;
+    border-radius: 7px;
+    box-shadow: 0 0 100px rgba(0, 0, 0,0.3);
+    display: inline-block;
+    padding: 10px 50px 25px 50px;
+  }
+
+  #avakado {
+    height: 0px;
+    width: 0px;
+  }
+
+  .textavakado {
+    color: #4c4c4c ;
+    font-size: 15px;
+    font-family: 'Ramabhadra', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  .textavakado1 {
+    color: #5c5c5c ;
+    font-size: 15px;
+    font-family: 'Heebo', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+}
